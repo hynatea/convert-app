@@ -1,0 +1,89 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base pour le corps */
+body {
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    font-size : 32px
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.online-b h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.online-b {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-ob {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Inputs */
+
+#input, #output, #output-2 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/*Footer*/
+
+footer {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 2em;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size : 42px
+    }
+    .online-b h2 {
+        font-size: 34px;
+    }
+    .form-ob {
+        font-size: 21px;
+    }
+}

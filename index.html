@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Application</title>
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Converter Application</h1>
+
+    <hr>
+
+    <div class="online-b">
+
+        <h2>Online Boost Conversion</h2>
+        <div class="form-ob">
+            <form action="/convert" method="post">
+                <div class="form-input">
+                    <label for="input">Enter the amount in Dollars:</label><br>
+                    <input type="text" id="input" name="input"><br><br>
+                </div>
+                <div class="form-output">
+                    <label for="output">Converted amount in Euros:</label><br>
+                    <input type="text" id="output" name="output" readonly><br><br>
+                    <label for="output">Euros into Golds:</label><br>
+                    <input type="text" id="output-2" name="output-2" readonly><br><br>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+<footer>by hynatea</footer>
+
+</html>
