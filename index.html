@@ -26,19 +26,32 @@
                     <input type="text" id="input" name="input"><br><br>
                 </div>
                 <div class="form-output">
-                    <label for="output">Converted amount in Euros:</label><br>
+                    <label for="output">Converted in Euros:</label><br>
                     <input type="text" id="output" name="output" readonly><br><br>
                     <label for="output">Euros into Golds:</label><br>
                     <input type="text" id="output-2" name="output-2" readonly><br><br>
                 </div>
-
-
-            </form>
         </div>
-    </div>
 
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <div class="ingame-b">
+            <h2>In-Game Boost Conversion</h2>
+            <h3>Write the entire amount (ex: 150000)</h3>
+            <div class="form-ig">
+                <form action="/convert" method="post">
+                    <div class="form-input">
+                        <label for="input-ig">Enter the amount in Golds:</label><br>
+                        <input type="text" id="input-ig" name="input-ig"><br><br>
+                    </div>
+                    <div class="form-output">
+                        <label for="output">Converted without ADV cut:</label><br>
+                        <input type="text" id="output-ig" name="output-ig" readonly><br><br>
+                    </div>
+
+                </form>
+            </div>
+
+            <script src="script.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 <footer>by hynatea</footer>
