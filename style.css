@@ -35,6 +35,7 @@ hr {
 /* ONLINE */
 
 .online-b {
+    margin-bottom: 15px;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -114,6 +115,9 @@ footer {
 @media (min-width: 1024px) {
     h1 {
         font-size : 42px
+    }
+    .online-b {
+        margin-bottom: 0;
     }
     .online-b h2 {
         font-size: 34px;
