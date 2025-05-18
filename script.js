@@ -32,7 +32,7 @@ function convert() {
 }
 
 function convertToGold(euros) {
-  let goldValue = euros * (1000 / 30);
+  let goldValue = [euros * (1000 / 30)] * 1000;
   output2.value = goldValue.toFixed(0);
 }
 
