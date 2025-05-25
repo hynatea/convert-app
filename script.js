@@ -52,6 +52,6 @@ inputIg.addEventListener("input", function () {
     outputIg.value = "";
     return;
   }
-  let convertedValue = inputValue * 0.47;
+  let convertedValue = inputValue * 0.525;
   outputIg.value = convertedValue.toFixed(0); // format to 2 decimal places
 });
